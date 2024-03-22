@@ -1,8 +1,0 @@
-version: '3'
-services:
-  inno2ch:
-    build: ./inno2ch
-    container_name: inno2ch
-    restart: on-failure
-    ports:
-      - "5000:5000"
